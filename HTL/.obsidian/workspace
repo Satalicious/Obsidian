@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "19115a19c2513d2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "de81564b9fbb4fc1",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw",
+          "state": {
+            "file": "ersteZeichnung.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4063d66f76afc0b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a594b6d12b9c81fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c067584ded1fec9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ec6c67491606de3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd0bae919150a144",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 180.99999809265137
+  },
+  "right": {
+    "id": "8d42d8f4796867e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "502216289b518672",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "723832ae16f1dd49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ersteZeichnung.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "adbb5c10f859aae6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ersteZeichnung.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "de81564b9fbb4fc1",
+  "lastOpenFiles": [
+    "ersteZeichnung.md",
+    "DB Mitschrift/Skiresorts.md",
+    "Pasted Image 20220413184605_149.png",
+    "ORACLE/Oracle.md",
+    "ORACLE/Oracle Setup.md",
+    "ORACLE/Data Dictionary.md",
+    "AUT/AUT_Meldesystem.md",
+    "as.md"
+  ]
+}

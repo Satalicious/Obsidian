@@ -1,0 +1,14 @@
+{
+  "snippets_file": "sql : ```sql$nl$$end$$nl$```",
+  "snippets": [
+    "sql : ```sql$nl$$end$$nl$```"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": false,
+  "useSpace": false,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": false
+}
