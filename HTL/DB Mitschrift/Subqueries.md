@@ -25,3 +25,8 @@ Komplexe liefert eine MENGE.
 ```sql 
 IN, NOT IN, <=ANY,>ALL
 ```
+
+
+# MAXIMUS
+
+---

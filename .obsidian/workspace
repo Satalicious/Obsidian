@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "3be4a40b2068492e",
+    "type": "split",
+    "children": [
+      {
+        "id": "79b00f4b6c23509d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "HTL/DB Mitschrift/Subqueries.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "532a312925d373e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc139d756e1537bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa96ccbe4fb87460",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bdc1d77b6b19c615",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31b7b5c71c385185",
+    "type": "split",
+    "children": [
+      {
+        "id": "03180bbc7b5125ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1e2762fec9dc7f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTL/DB Mitschrift/Subqueries.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "79b00f4b6c23509d",
+  "lastOpenFiles": [
+    "HTL/DB Mitschrift/Subqueries.md",
+    "HTL/DB Mitschrift/SQL Basics.md",
+    "HTL/DB Mitschrift/Constraints.md",
+    "HTL/DB Mitschrift/Cocktails.md"
+  ]
+}
