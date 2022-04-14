@@ -1,125 +1,16 @@
 
-CREATE TABLE lifttypes 
-(id INT PRIMARY KEY AUTO_INCREMENT, 
-name VARCHAR(32),
-description VARCHAR(512)
-);
+Welche Soccerteams haben zumindest einmal gewonnen?
 
-CREATE TABLE skilifts (id INT PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(32),
-height INT,
-lifttype_id INT,
-skiresort_id INT
-);
+```sql
+```SELECT DISTINCT t.name FROM teams t, matches m 
+WHERE (t.id = m.home_team_id AND goalsH > goalsG) OR (t.id = m.guest_team_id AND goalsG > goalsH);
+```
 
+# SKIRESORTS Queries
 
-CONSTRAINTS
-============
-	- UNIQUE ... muss eindeutig sein
-	- NOT NULL ..darf nicht den Wert NULL enthalten
-	- FOREIGN KEY CONSTRAINT !!
+```sql
 
-		ALTER TABLE skilifts ADD FOREIGN KEY (skiresort_id)
-		REFERENCES skiresorts(id)
-
-		ALTER TABLE skilifts ADD FOREIGN KEY (lifttype_id)
-		REFERENCES lifttypes(id)
-		ON DELETE CASCADE
-		ON UPDATE CASCADE
-		
-	- PRIMARY KEY ... generiert Index
-	- CHECK		  ... Regeln für Attributwerte
-	
-	
-UPDATE skilifts SET lifttype_id = 2 WHERE id = 5;
-
-
-> Spalten nachträglich hinzufügen
-
-	ALTER TABLE skiresorts
-	ADD region VARCHAR(32);
-	
-	ALTER TABLE skiresorts
-	DROP region 
-	
-	ALTER TABLE skiresorts
-	CHANGE region region VARCHAR(32);
-
-SQL DML
-=========
-
-> INSERT INTO skiresorts (name) VALUES ('Schladming');
-
-> INSERT INTO lifttypes (name) VALUES ('Sessellift');
-
-> INSERT INTO skilifts (name, height, lifttype_id, skiresort_id)
-	VALUES("Rosenkranzlift", 550, 1,1);
-
-
-
-
-SQL DRL
-==========
-
-Klausel : 
-
-	> FROM
-	> WHERE
-		- logische Operatoren: AND, OR, NOT
-		- rel. Operatoren: >, <=, <, =, <>
-		- besondere: BETWEEN, LIKE, IS NULL
-		
-			- WHERE id BETWEEN 1 AND 3			//WHERE id >= 1 AND id <= 3
-			- WHERE last_name LIKE "A%"			//Namen beginnend mit Großbuchstaben
-			- WHERE last_name LIKE "___"		//Name mit genau 3 Buchstaben
-			
-			
-			
-> JOIN zwischen mehreren Tabellen
-========================================
-
-select * FROM skiresorts, skilifts;
-+----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
-| id | name       | slope_length | plz  | city | region | id | name           | height | lifttype_id | skiresort_id |
-+----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
-|  1 | Schladming |         NULL | NULL | NULL | NULL   |  1 | Rosenkranzlift |    550 |           1 |            1 |
-|  2 | Naßfeld    |         NULL | NULL | NULL | NULL   |  1 | Rosenkranzlift |    550 |           1 |            1 |
-|  1 | Schladming |         NULL | NULL | NULL | NULL   |  2 | Rosenkranzlift |    550 |           2 |            1 |
-|  2 | Naßfeld    |         NULL | NULL | NULL | NULL   |  2 | Rosenkranzlift |    550 |           2 |            1 |
-|  1 | Schladming |         NULL | NULL | NULL | NULL   |  3 | Naßfeldbahn    |    800 |           3 |            2 |
-|  2 | Naßfeld    |         NULL | NULL | NULL | NULL   |  3 | Naßfeldbahn    |    800 |           3 |            2 |
-+----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
-
-
-select * FROM skiresorts, skilifts
-    -> WHERE skiresorts.id = skilifts.skiresort_id;
-+----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
-| id | name       | slope_length | plz  | city | region | id | name           | height | lifttype_id | skiresort_id |
-+----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
-|  1 | Schladming |         NULL | NULL | NULL | NULL   |  1 | Rosenkranzlift |    550 |           1 |            1 |
-|  1 | Schladming |         NULL | NULL | NULL | NULL   |  2 | Rosenkranzlift |    550 |           2 |            1 |
-|  2 | Naßfeld    |         NULL | NULL | NULL | NULL   |  3 | Naßfeldbahn    |    800 |           3 |            2 |
-+----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
-
-
-select skiresorts.name, skilifts.name, skilifts.height FROM skiresorts, skilifts
-    -> WHERE skiresorts.id = skilifts.skiresort_id;
-+------------+----------------+--------+
-| name       | name           | height |
-+------------+----------------+--------+
-| Schladming | Rosenkranzlift |    550 |
-| Schladming | Rosenkranzlift |    550 |
-| Naßfeld    | Naßfeldbahn    |    800 |
-+------------+----------------+--------+
-
-
-> ALIAS SETZEN
-
-SELECT r.name, s.name, s.height FROM skiresorts r, skilifts s
-    -> WHERE r.id = s.skiresort_id;
-	
-
-ÜBUNG: Welche Skigebiete betreiben zumindest eine Gondel?
+Welche Skigebiete betreiben zumindest eine Gondel?
 
 
 SELECT DISTINCT r.name
@@ -127,8 +18,8 @@ SELECT DISTINCT r.name
     WHERE r.id = s.skiresort_id AND s.lifttype_id = l.id
     AND l.name = "Gondel";	
 	
-	
-ÜBUNG: Welche Skigebiete betreiben keine Gondel?
+======================================================================
+Welche Skigebiete betreiben keine Gondel?
 
 SELECT DISTINCT r.name
 	FROM skiresorts r, skilifts s, lifttypes l
@@ -138,11 +29,9 @@ SELECT DISTINCT r.name
 SELECT DISTINCT r.name
 	FROM skiresorts r
     WHERE r.id NOT IN ()
-===============================================================================================
-	
-	
+======================================================================
 Klausel: JOIN
-===============================================================================================
+======================================================================
 
 SELECT r.name, s.name, t.name
 	FROM skiresorts r, skilifts s, lifttypes t
@@ -157,8 +46,8 @@ SELECT r.name, s.name
 		ON s.lifttype_id = t.id
 			WHERE t.name = 'Schleplift';
 			
-			
-// Frage: Wieviele Skilifte gibt es pro Skigebiet?
+======================================================================		
+Wieviele Skilifte gibt es pro Skigebiet?
 
 SELECT r.name, count(*) AS Liftanzahl
 	FROM skiresorts r, skilifts l
@@ -172,27 +61,27 @@ SELECT r.name, count(*) AS Liftanzahl
 | Schladming |          2 |
 | Naßfeld    |          1 |
 +------------+------------+
+
 Keine Frauenalpe dabei, da sie keinen Skilift hat. - PROBLEM!!
 ==========
 	LÖSUNG:
 ==========
-
 
 SELECT r.name, count(l.id) AS Liftanzahl
 	FROM skiresorts r LEFT OUTER JOIN skilifts l
 		ON r.id = l.skiresort_id
 			GROUP BY r.id, r.name;
 			
-			
-// Frage: Welche Skigebiete haben mindestens 3 Liftanzahl?
+======================================================================		
+Welche Skigebiete haben mindestens 3 Liftanzahl?
 			
 SELECT r.name, count(l.id) AS Liftanzahl
 	FROM skiresorts r LEFT OUTER JOIN skilifts l
 		ON r.id = l.skiresort_id
 			GROUP BY r.id, r.name
 				HAVING count(*) > 2;
-
-// Frage: In welchen Skigebiet gibt es KEINE Schleplifte?
+======================================================================
+In welchen Skigebiet gibt es KEINE Schleplifte?
 
 SELECT r.name, count(r.id)
 	FROM skiresorts r, skilifts l
@@ -208,8 +97,6 @@ SELECT s.name
 (SELECT DISTINCT l.skiresort_id, l.name, t.name
 			FROM skilifts l, lifttypes t
 			WHERE l.lifttype_id = t.id AND t.name = 'Schleplift');
-			
-			
 
 
 SELECT s.name, count(t.id) AS Schleplifte
@@ -224,8 +111,8 @@ SELECT s.name, l.name
 	
 
 	
-	
-//Frage: Wieviele Skilifte hat jedes Skigebiet?
+======================================================================	
+Wieviele Skilifte hat jedes Skigebiet?
 
 ======
 LÖSUNG
@@ -245,9 +132,9 @@ count (*) 		...		zählt alle Datensätze der Gruppe
 count(<spalte>) ...		zählt alle Datensätze der Gruppe, bei denen die Spalte mit dem Wert <spalte> != NULL ist
 
 
-
+======================================================================
 			
-// Frage: Liste aller Skigebiete mit Anzahl der Schleplifte
+Liste aller Skigebiete mit Anzahl der Schleplifte
 Idee: alle Skilifte des selben Gebiets zu einer Gruppe zusammenfassen.
 pro Gruppe -> ausgeben von Namen und die Anzahl der Schleplifte
 
@@ -261,8 +148,8 @@ SELECT r.name, count(l.id) AS "Anzahl Schleplifte"
 	GROUP BY r.id, r.name;
 	
 	
--------------------------------------------------------------------------------------------------------------
-//Frage: Welche Skigebiete haben mehr Liftanlagen als das Skigebiet 'Kreischberg'?
+======================================================================
+Welche Skigebiete haben mehr Liftanlagen als das Skigebiet 'Kreischberg'?
 
 SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 	FROM skilifts s, skiresorts r
@@ -278,15 +165,15 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 	FROM skiresorts r1, skilifts l1
 		WHERE r1.id = l1.skiresort_id AND r1.name = 'Kreischberg')
 		
--------------------------------------------------------------------------------------------------------------
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
-!!!!!!!!!!!!!!!!!!!!!!!// BEI GROUP BY DAS VON SELECT REINSCHREIBEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!// AM BESTEN NOCH id MIT name DAZU SCHREIBEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
+======================================================================
+BEI GROUP BY DAS VON SELECT REINSCHREIBEN,
+AM BESTEN NOCH id MIT name DAZU SCHREIBEN		
 
+```
 
+# Subqueries 01.03.22
 
------------------------------Subqueries 1.3.22-----------------------------------------------------------
+```sql
 
 > Es gibt Stellen in denen man statt einem Wert oder einer Menge von Werten 
 	das Ergebnis einer Abfrage einsetzen kann.
@@ -297,8 +184,7 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 		FROM ...
 			WHERE ... = (SELECT ...)
 			
-================================================================================		
-	Bsp: Welche Skiresorts gibt es aus der selben Region wie "Frauenalpe"?
+======================================================================: Welche Skiresorts gibt es aus der selben Region wie "Frauenalpe"?
 	
 	a) ohne Subquery
 	SELECT s1.name 
@@ -311,7 +197,7 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 		FROM skiresorts sr
 			WHERE sr.region = (SELECT sr1.region FROM skiresorts sr1 WHERE sr1.name = 'Frauenalpe')
 			
-=====================================================		
+======================================================================	
 	Bsp: Welches Skigebiet hat die meisten Pistenkilometer?
 
 	a) ohne Subquery
@@ -324,7 +210,7 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 		FROM skiresorts s1
 			WHERE slope_length = (SELECT max(slope_length) FROM skiresorts);
 			
-======================================================
+======================================================================
 	Bsp: Welches Skigebiet hat die meisten Pistenanlagen?
 	
 	SELECT r.name
@@ -334,7 +220,7 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 				HAVING count(*) >= ALL 
 				(SELECT count(*) FROM skilifts
 				GROUP BY skiresort_id);
-	
+				
 	/* nur falls DBMS geschachtelte Spaltenfunktionen beherrscht!!
 	SELECT r.name
 		FROM skiresorts r, skilifts l
@@ -343,8 +229,7 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 				HAVING count(*) >= ALL 
 				(SELECT max(count(*)) FROM skilifts GROUP BY skiresort_id);
 	*/		
-				
-==================================
+======================================================================
 	Bsp: Welcher Lifttyp wird am häufigsten verwendet?
 	
 	SELECT lt.name
@@ -354,7 +239,7 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 		HAVING count(*) >= ALL
 		(SELECT count(*) FROM skilifts l2 GROUP BY l2.lifttype_id);
 		
-==================================
+======================================================================
 	Bsp: Welche Skiresorts haben mehr Sessellifte als Schlepplifte?
 	
 	-> abhängige SQ: in der SQ Zugriff auf Datensatz der äußeren Query.
@@ -372,10 +257,10 @@ SELECT r.name, count(s.name) as "Anzahl Liftanlagen"
 		(SELECT
 			FROM skilifts l1, lifttypes t1
 				WHERE l1.lifttype_id = t1.id AND l1.skiresort_id = r.id
-				AND t1.name = 'Schlepplift');
-												SPRINGENDER PUNKT EINER ABHÄNGIGEN SQ!!
-		
-==================================
+				AND t1.name = 'Schlepplift');											
+```
+###  DAS OBEN IST DER SPRINGENDE PUNKT EINER ABHÄNGIGEN SQ!!
+```sql
 Welche Skiresorts haben größere Liftanzahl als Schladming?
 
 Bsp: Welcher Skilift absolviert die meisten Höhenmeter?
@@ -392,7 +277,7 @@ SELECT s.name
 	FROM skilifts s
 		WHERE height = (SELECT max(height) FROM skilifts);
 		
-==================================
+======================================================================
 Views: Sichten auf Tabellen
 
 	> jede View besitzt ein zugrundeliegendes SELECT Statement
@@ -408,3 +293,4 @@ Views: Sichten auf Tabellen
 		FROM skiresorts r, skilifts l
 		WHERE r.id = l.skiresort_id
 		GROUP BY r.id, r.name, r.slope_length)
+```
