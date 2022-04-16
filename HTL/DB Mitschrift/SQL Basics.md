@@ -2,17 +2,11 @@
 ## Erzeugen von Tabellen
 
 CREATE TABLE lifttypes 
-(id INT PRIMARY KEY AUTO_INCREMENT, 
-name VARCHAR(32),
-description VARCHAR(512)
-);
+(id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(32),
+description VARCHAR(512));
 
 CREATE TABLE skilifts (id INT PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(32),
-height INT,
-lifttype_id INT,
-skiresort_id INT
-);
+name VARCHAR(32),height INT,lifttype_id INT,skiresort_id INT);
 
 [[Constraints]]
 
@@ -54,7 +48,7 @@ select * FROM skiresorts, skilifts;
 
 
 select * FROM skiresorts, skilifts
-    -> WHERE skiresorts.id = skilifts.skiresort_id;
+    WHERE skiresorts.id = skilifts.skiresort_id;
 +----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
 | id | name       | slope_length | plz  | city | region | id | name           | height | lifttype_id | skiresort_id |
 +----+------------+--------------+------+------+--------+----+----------------+--------+-------------+--------------+
@@ -65,7 +59,7 @@ select * FROM skiresorts, skilifts
 
 
 select skiresorts.name, skilifts.name, skilifts.height FROM skiresorts, skilifts
-    -> WHERE skiresorts.id = skilifts.skiresort_id;
+    WHERE skiresorts.id = skilifts.skiresort_id;
 +------------+----------------+--------+
 | name       | name           | height |
 +------------+----------------+--------+

@@ -6,51 +6,51 @@
 SELECT Cocktail
 	FROM tblCocktail
 		WHERE Alkoholgehalt = 0
-			
+=========================================================	
 > Aus wievielen Zutaten wird jeder Cocktail erzeugt?
 
 	SELECT c.Cocktail, count(*) as Zutatenanzahl
 		FROM tblCocktail c, tblCocktailZutaten cz
 			WHERE c.CocktailNr = cz.CocktailNr
 				GROUP BY c.CocktailNr, c.Cocktail
-
+=========================================================
 > Aus wievielen alkoholfrei Zutaten wird jeder Cocktail erzeugt?
 
 	SELECT c.Cocktail, count(*) as "Zutatenanzahl alkoholfrei"
 		FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z
 			WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr AND z.Alkoholgehalt = 0
-				GROUP BY c.CocktailNr, c.Cocktail;
-				
-				
-		
+				GROUP BY c.CocktailNr, c.Cocktail;				
+=========================================================		
 > Alle Cocktails ohne Gruppe?
 
 SELECT c.Cocktail
 	FROM tblCocktail c, tblGruppe g
 		WHERE c.GruppeNr = (g.GruppeNr AND g.Gruppe = "Ohne") OR c.GruppeNr is NULL;
-		
-		
+=========================================================	
 > Cocktails mit mehreren alk. Zutaten?
 
 	SELECT c.CocktailNr, c.Cocktail, count(*) as AlkhoholZutaten
 		FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z
 			WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr AND z.alkoholgehalt > 0
 				GROUP BY c.CocktailNr, c.Cocktail
-				HAVING count(*) > 1;
-				
+				HAVING count(*) > 1;			
+=========================================================			
 > Welche Zutaten befinden sich nicht in der Hausbar?
 
+	v1) ohne SQ
+	
 	SELECT z.Zutat
 		FROM tblZutat z LEFT OUTER JOIN tblHausbar h
 			ON z.ZutatenNr = h.ZutatenNr
 				WHERE h.ZutatenNr is NULL
 					GROUP BY z.Zutat;
-					
+
+	v2) mit SQ
+	
 	SELECT z.Zutat	
 		FROM tblZutat z
-			WHERE z.ZutatenNr NOT IN (SELECT ZutatenNr FROM tblHausbar)
-			
-			
+			WHERE z.ZutatenNr NOT IN (SELECT ZutatenNr FROM tblHausbar)			
+=========================================================		
 > Welche Cocktails beinhalten die alkoholhältigste Zutat?
 
 	SELECT 	c.Cocktail
@@ -58,8 +58,7 @@ SELECT c.Cocktail
 			WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr
 			AND z.Alkoholgehalt = (	SELECT max(Alkoholgehalt)
 				FROM tblZutat);
-				
-				
+=========================================================			
 > Welche Cocktails haben mehr Zutaten als 'Gin Fizz'?
 
 Subquery als Vorbereitung, Anzahl Zutaten von Gin Fizz:
@@ -73,8 +72,7 @@ Subquery als Vorbereitung, Anzahl Zutaten von Gin Fizz:
 			WHERE c.CocktailNr = cz.CocktailNr
 				GROUP BY c.Cocktail HAVING count(*) > (SELECT count(*) FROM tblCocktail c2, tblCocktailZutaten cz2
 												WHERE c2.CocktailNr = cz2.CocktailNr AND c2.Cocktail = 'Gin Fizz');
-
-			
+=========================================================			
 > Welche Cocktails werden aus gleich vielen alkoholfreien Zutaten erzeugt wie 'Bloody Mary'?
 
 Subquery als Vorbereitung, Anzahl alkoholfreier Zutaten von Bloody Mary:
@@ -91,9 +89,7 @@ Subquery als Vorbereitung, Anzahl alkoholfreier Zutaten von Bloody Mary:
 				GROUP BY c.Cocktail HAVING count(*) = (	SELECT count(*)
 		FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z
 			WHERE c.CocktailNr = cz.CocktailNr AND c.Cocktail = 'Bloody Mary' AND cz.ZutatenNr = z.ZutatenNr AND z.Alkoholgehalt = 0);
-			
-
-			
+=========================================================		
 > Welche Cocktails können nicht produziert werden? = TESTBEISPIEL EVENTUELL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	V1) weil eine Zutat fehlt.
 	V2) Weil eine Zutat komplett fehlt oder nur in zu geringer Menge vorhanden ist(Hausbar).
@@ -119,8 +115,7 @@ Subquery als Vorbereitung, Anzahl alkoholfreier Zutaten von Bloody Mary:
 					(cz.Menge > h.Menge AND h.ZutatenNr = cz.ZutatenNr)
 				)
 					GROUP BY c.Cocktail;
-
-
+=========================================================
 > Welche Cocktails werden aus mehr Brandy hergestellt als ' B and P'? 
 // vllt Testbeispiel
 Voraussetzung: max. 1 Brandy pro Cocktail
@@ -134,9 +129,7 @@ Voraussetzung: max. 1 Brandy pro Cocktail
 			FROM tblCocktail c1, tblCocktailZutaten cz1, tblZutat z1
 			WHERE c1.CocktailNr = cz1.CocktailNr AND cz1.ZutatenNr = z1.ZutatenNr
 			AND z1.Zutat = 'Brandy' AND c1.Cocktail = 'B and P');
-
-
-
+=========================================================
 > Welche Cocktails werden aus den meisten Zutaten erzeugt und Menge nicht gleich 0?
 > 
 	V1)
@@ -160,8 +153,7 @@ Voraussetzung: max. 1 Brandy pro Cocktail
 		FROM tblCocktailzutaten cz1
 		WHERE cz1.menge > 0
 		GROUP BY cz1.CocktailNr);
-	
-
+=========================================================
 > Welche Cocktails werden nicht aus den wenigsten Zutaten erzeugt?
 	
 	SELECT c.Cocktail, count(*) as Anzahl
@@ -182,8 +174,7 @@ Voraussetzung: max. 1 Brandy pro Cocktail
 
 	-> Subquery muss immer wieder neu ausgeführt werden !!!
 
-
-Bsp.:
+=========================================================
 > Welche Cocktails lassen sich nicht erzeugen, da zumindest eine Zutat in nicht
 ausreichender Menge in der Hausbar vorhanden ist?
 		
@@ -192,7 +183,7 @@ ausreichender Menge in der Hausbar vorhanden ist?
 			WHERE c.CocktailNr = cz.CocktailNr AND
 				AND cz.menge > (SELECT h.menge FROM tblHausbar h 
 				WHERE h.ZutatenNr = cz.ZutatenNr);
-				
+=========================================================			
 > Welche Cocktails werden aus mehr alkoholischen Zutaten erzeugt als aus antialkoholischen?
 
 	SELECT c.Cocktail, count(*) AS Zutaten
