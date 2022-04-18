@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "DB Mitschrift/Cocktails.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 180.99999809265137
+    "width": 180.99999809265137,
+    "collapsed": true
   },
   "right": {
     "id": "8d42d8f4796867e8",

@@ -25,7 +25,7 @@ SELECT Cocktail
 
 SELECT c.Cocktail
 	FROM tblCocktail c, tblGruppe g
-		WHERE c.GruppeNr = (g.GruppeNr AND g.Gruppe = "Ohne") OR c.GruppeNr is NULL;
+		WHERE c.GruppeNr = (g.GruppeNr AND g.Gruppe = 'Ohne') OR c.GruppeNr is NULL;
 =========================================================	
 > Cocktails mit mehreren alk. Zutaten?
 
@@ -34,7 +34,8 @@ SELECT c.Cocktail
 			WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr AND z.alkoholgehalt > 0
 				GROUP BY c.CocktailNr, c.Cocktail
 				HAVING count(*) > 1;			
-=========================================================			
+=========================================================
+!!!!!!
 > Welche Zutaten befinden sich nicht in der Hausbar?
 
 	v1) ohne SQ
