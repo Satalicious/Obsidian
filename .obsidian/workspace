@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/DB Mitschrift/Subqueries.md",
-            "mode": "source",
+            "file": "HTL/DB Mitschrift/Cocktails.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/DB Mitschrift/Subqueries.md",
+                "file": "HTL/DB Mitschrift/Cocktails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,15 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
+    "HTL/DB Mitschrift/Cocktails.md",
     "HTL/DB Mitschrift/Subqueries.md",
     "HTL/DB Mitschrift/SQL Basics.md",
+    "HTL/DB Mitschrift/Queries.md",
     "HTL/DB Mitschrift/Constraints.md",
-    "HTL/DB Mitschrift/Cocktails.md"
+    "HTL/DB Mitschrift/Datensätze einfügen.md",
+    "HTL/ORACLE/Oracle.md",
+    "HTL/ORACLE/Oracle Setup.md",
+    "HTL/ORACLE/Data Dictionary.md",
+    "Referat.md"
   ]
 }

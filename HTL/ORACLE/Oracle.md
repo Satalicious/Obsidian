@@ -2,6 +2,7 @@
 ### How to Setup/Start Oracle: [[Oracle Setup]]
 
 ### Data Dictionary: [[Data Dictionary]]
+[[SQL Basics]]
 ---
 ---
 

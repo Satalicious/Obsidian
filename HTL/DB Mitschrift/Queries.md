@@ -37,14 +37,14 @@ SELECT r.name, s.name, t.name
 	FROM skiresorts r, skilifts s, lifttypes t
 		WHERE r.id = s.skiresort_id
 		AND s.lifttype_id = t.id
-		AND t.name ='Schleplift';
+		AND t.name ='Schlepplift';
 		
 SELECT r.name, s.name
 	FROM skiresorts r JOIN skilifts s
 		ON r.id = s.skiresort_id
 		JOIN lifttypes t
 		ON s.lifttype_id = t.id
-			WHERE t.name = 'Schleplift';
+			WHERE t.name = 'Schlepplift';
 			
 ======================================================================		
 Wieviele Skilifte gibt es pro Skigebiet?
