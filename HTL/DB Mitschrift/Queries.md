@@ -90,10 +90,24 @@ GROUP BY r.name;
 | Na▀feld     |           3 |
 | Schladming  |           1 |
 +-------------+-------------+
+=========================================================
+Liste aller Skigebiete mit Anzahl der Schleplifte?
 
+Idee: alle Skilifte des selben Gebiets zu einer Gruppe zusammenfassen.
+pro Gruppe -> ausgeben von Namen und die Anzahl der Schleplifte
+
+======
+LÖSUNG
+======
+
+SELECT r.name, count(l.id) AS "Anzahl Schlepplifte"
+	FROM skilifts l JOIN lifttypes t ON (t.id = l.lifttype_id AND t.name = 'Schlepplift')
+	RIGHT OUTER JOIN skiresorts r ON r.id = l.skiresort_id
+	GROUP BY r.id, r.name;
+	
 =========================================================
 Welche Skigebiete haben keinen Schlepplift?
-
+// im proud
 SELECT r.name FROM skiresorts r WHERE r.id NOT IN (SELECT DISTINCT l.skiresort_id FROM skilifts l, lifttypes t WHERE l.lifttype_id = t.id AND t.name = 'Schlepplift');
 
 +------------+
@@ -107,54 +121,31 @@ SELECT r.name FROM skiresorts r WHERE r.id NOT IN (SELECT DISTINCT l.skiresort_i
 (SELECT DISTINCT l.skiresort_id, l.name, t.name
 			FROM skilifts l, lifttypes t
 			WHERE l.lifttype_id = t.id AND t.name = 'Schleplift');
-
-
+			
+=========================================================
+Welche Skigebiete haben Schlepplifte und wieviele?
 SELECT s.name, count(t.id) AS Schleplifte
 	FROM skiresorts s, lifttypes t, skilifts l
 		WHERE s.id = l.skiresort_id AND t.id = l.lifttype_id
 		AND t.id = 2
 		GROUP BY s.name;
-	
-SELECT s.name, l.name FROM skiresorts s, skilifts l WHERE s.id = l.skiresort_id;
-	
-
+				
 =========================================================
 Wieviele Skilifte hat jedes Skigebiet?
 
 ======
 LÖSUNG
 ======
-// PASST NOCH NICHT GANZ
+
+SELECT r.name, count(l.lifttype_id)
+FROM skiresorts r LEFT OUTER JOIN skilifts l
+ON r.id = l.skiresort_id
+GROUP BY r.name, r.id;
 
 
-SELECT r.name, count(l.id) AS "Anzahl Schleplifte"
-	FROM skilifts l JOIN lifttypes t ON (t.id = l.lifttype_id)
-	RIGHT OUTER JOIN skiresorts r ON r.id = l.skiresort_id
-	GROUP BY r.id, r.name;
-
-
-	
-	
 count (*) 		...		zählt alle Datensätze der Gruppe
 count(<spalte>) ...		zählt alle Datensätze der Gruppe, bei denen die Spalte mit dem Wert <spalte> != NULL ist
 
-
-=========================================================
-			
-Liste aller Skigebiete mit Anzahl der Schleplifte
-Idee: alle Skilifte des selben Gebiets zu einer Gruppe zusammenfassen.
-pro Gruppe -> ausgeben von Namen und die Anzahl der Schleplifte
-
-======
-LÖSUNG
-======
-
-SELECT r.name, count(l.id) AS "Anzahl Schleplifte"
-	FROM skilifts l JOIN lifttypes t ON (t.id = l.lifttype_id AND t.name = 'Schleplift')
-	RIGHT OUTER JOIN skiresorts r ON r.id = l.skiresort_id
-	GROUP BY r.id, r.name;
-	
-	
 =========================================================
 Welche Skigebiete haben mehr Liftanlagen als das Skigebiet 'Kreischberg'?
 
@@ -218,7 +209,7 @@ SELECT s.name, max(s.slope_length) FROM skiresorts s
 			
 =========================================================
 	Bsp: Welches Skigebiet hat die meisten Pistenanlagen?
-	
+	// DOCKI FRAGEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	SELECT r.name
 		FROM skiresorts r, skilifts l
 			WHERE r.id = l.skiresort_id
