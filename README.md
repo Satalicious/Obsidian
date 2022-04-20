@@ -1,0 +1,3 @@
+# Obsidian
+my Obsidian notes :)
+
