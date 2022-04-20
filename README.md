@@ -1,3 +1,3 @@
-**# Obsidian
+# Obsidian
 my Obsidian notes :)
-**
+
