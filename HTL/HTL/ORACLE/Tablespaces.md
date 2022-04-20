@@ -1,0 +1,15 @@
+
+![[Tablespaces_drawing]]
+
+#### Menge der log. zusammengehörenden DB Objekte
+
+
+
+
+```sql 
+SELECT file_name FROM DBA_DATA_FILES;
+```
+D:\HTL\ORACLE\ORADATA\XE\SYSTEM01.DBF
+D:\HTL\ORACLE\ORADATA\XE\SYSAUX01.DBF
+D:\HTL\ORACLE\ORADATA\XE\UNDOTBS01.DBF
+D:\HTL\ORACLE\ORADATA\XE\USERS01.DBF

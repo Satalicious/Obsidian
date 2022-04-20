@@ -145,6 +145,7 @@ Voraussetzung: max. 1 Brandy pro Cocktail
 		GROUP BY cz1.CocktailNr);
 		
 	V2)
+	// NOT WORKING?!?!?
 	
 	SELECT c.Cocktail, count(*) as Anzahl
 	FROM tblCocktail c, tblCocktailzutaten cz
@@ -187,9 +188,11 @@ ausreichender Menge in der Hausbar vorhanden ist?
 =========================================================			
 > Welche Cocktails werden aus mehr alkoholischen Zutaten erzeugt als aus antialkoholischen?
 
-	SELECT c.Cocktail, count(*) AS Zutaten
-		FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z
-			WHERE c.CocktailNr = c.CocktailNr AND z.ZutatenNr = cz.ZutatenNr
-			HAVING count(*) > (SELECT 
+	SELECT c1.Cocktail, count(*)
+FROM tblCocktail c1, tblCocktailzutaten cz1, tblZutat z1
+WHERE c1.CocktailNr = cz1.CocktailNr AND cz1.ZutatenNr = z1.ZutatenNr AND z1.Alkoholgehalt > 0
+GROUP BY c1.Cocktail, c1.CocktailNr
+HAVING count(*) > (SELECT count(*) 
+		FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z WHERE c.CocktailNr = cz.CocktailNr AND z.ZutatenNr = cz.ZutatenNr AND z.Alkoholgehalt = 0); 
 			
 			
