@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/ORACLE/Oracle.md",
-            "mode": "preview",
+            "file": "DB Mitschrift/Cocktails.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/ORACLE/Oracle.md",
+                "file": "DB Mitschrift/Cocktails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTL/ORACLE/Oracle.md"
+                "file": "DB Mitschrift/Cocktails.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "de81564b9fbb4fc1",
   "lastOpenFiles": [
+    "DB Mitschrift/Cocktails.md",
+    "DB Mitschrift/Queries.md",
+    "DB Mitschrift/SQL Basics.md",
+    "Allgemein/Testtermine 2. Semester.md",
+    "ORACLE/Data Dictionary.md",
+    "DB Mitschrift/Constraints.md",
     "HTL/ORACLE/Oracle.md",
     "HTL/ORACLE/Data Dictionary.md",
     "HTL/ORACLE/Oracle Setup.md",
-    "HTL/ORACLE/Tablespaces.md",
-    "HTL/ORACLE/Tablespaces_drawing.md",
-    "HTL/DB Mitschrift/SQL Basics.md",
-    "HTL/Allgemein/ersteZeichnung.md",
-    "HTL/Allgemein/Testtermine 2. Semester.md",
-    "DataDictionary.md",
-    "HTL/DB Mitschrift/Cocktails.md"
+    "HTL/ORACLE/Tablespaces.md"
   ]
 }

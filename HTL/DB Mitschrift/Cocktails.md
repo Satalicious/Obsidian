@@ -60,19 +60,23 @@ SELECT c.Cocktail
 			AND z.Alkoholgehalt = (	SELECT max(Alkoholgehalt)
 				FROM tblZutat);
 =========================================================			
-> Welche Cocktails haben mehr Zutaten als 'Gin Fizz'?
+> Welche Cocktails haben gleich viele alkoholische Zutaten als 'Gin Fizz'?
 
 Subquery als Vorbereitung, Anzahl Zutaten von Gin Fizz:
 
-	SELECT count(*) FROM tblCocktail c, tblCocktailZutaten cz
-		WHERE c.CocktailNr = cz.CocktailNr AND c.Cocktail = 'Gin Fizz';
+SELECT count(*) FROM tblCocktail c, tblCocktailZutaten cz
+WHERE c.CocktailNr = cz.CocktailNr AND c.Cocktail = 'Gin Fizz';
 			
 
-	SELECT DISTINCT c.Cocktail, count(*) as Anzahl
-		FROM tblCocktail c, tblCocktailZutaten cz
-			WHERE c.CocktailNr = cz.CocktailNr
-				GROUP BY c.Cocktail HAVING count(*) > (SELECT count(*) FROM tblCocktail c2, tblCocktailZutaten cz2
-												WHERE c2.CocktailNr = cz2.CocktailNr AND c2.Cocktail = 'Gin Fizz');
+SELECT c.Cocktail, count(*) as Anzahl
+FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z
+WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr
+AND z.Alkoholgehalt > 0
+GROUP BY c.Cocktail 
+HAVING count(*) = 
+(SELECT count(*) FROM tblCocktail c2, tblCocktailZutaten cz2, tblZutat z2
+WHERE c2.CocktailNr = cz2.CocktailNr AND cz2.ZutatenNr = z2.ZutatenNr 
+AND c2.Cocktail = 'Gin Fizz' AND z2.Alkoholgehalt > 0);
 =========================================================			
 > Welche Cocktails werden aus gleich vielen alkoholfreien Zutaten erzeugt wie 'Bloody Mary'?
 
@@ -135,14 +139,14 @@ Voraussetzung: max. 1 Brandy pro Cocktail
 > 
 	V1)
 
-	SELECT c.Cocktail, count(*) as Anzahl
-	FROM tblCocktail c, tblCocktailzutaten cz
-	WHERE c.CocktailNr = cz.CocktailNr
-	GROUP BY c.Cocktail
-	HAVING count(*) >= ALL (SELECT count(*)
-		FROM tblCocktailzutaten cz1
-		WHERE cz1.menge > 0
-		GROUP BY cz1.CocktailNr);
+	SELECT c1.Cocktail, count(*)
+	FROM tblCocktailZutaten cz1, tblCocktail c1
+	WHERE c1.CocktailNr = cz1.CocktailNr
+	GROUP BY c1.Cocktail
+	HAVING count(*) >= ALL 
+	(SELECT count(*) 
+	FROM tblCocktailZutaten cz, tblCocktail c
+	WHERE cz.CocktailNr = c.CocktailNr GROUP BY c.Cocktail)
 		
 	V2)
 	// NOT WORKING?!?!?
@@ -158,16 +162,15 @@ Voraussetzung: max. 1 Brandy pro Cocktail
 =========================================================
 > Welche Cocktails werden nicht aus den wenigsten Zutaten erzeugt?
 	
-	SELECT c.Cocktail, count(*) as Anzahl
-	FROM tblCocktail c, tblCocktailzutaten cz
-	WHERE c.CocktailNr = cz.CocktailNr
-	GROUP BY c.Cocktail
-	HAVING count(*) > ANY (SELECT max(count(*))
-		FROM tblCocktailzutaten cz1
-		WHERE cz1.menge > 0
-		GROUP BY cz1.CocktailNr);
-	
-            ABHÄNGIGE SUBQUERIES
+SELECT c2.Cocktail FROM tblCocktail c2 
+WHERE c2.Cocktail NOT IN (
+SELECT c1.Cocktail FROM tblCocktailZutaten cz1, tblCocktail c1 WHERE c1.CocktailNr = cz1.CocktailNr GROUP BY c1.Cocktail
+HAVING count(*) <= ALL 
+(SELECT count(*) FROM tblCocktailZutaten cz, tblCocktail c WHERE c.CocktailNr = cz.CocktailNr GROUP BY c.Cocktail)
+ );
+
+=========================================================
+                  ABHÄNGIGE SUBQUERIES
 >>>>>>>>>>>>> Operator EXISTS <<<<<<<<<<<<<<<<<<<<<<<<<
 
 	....WHERE/HAVING ... EXISTS (SELECT ...) => true wenn SELECT Statement ein Ergebnis bringt
@@ -194,5 +197,47 @@ WHERE c1.CocktailNr = cz1.CocktailNr AND cz1.ZutatenNr = z1.ZutatenNr AND z1.Alk
 GROUP BY c1.Cocktail, c1.CocktailNr
 HAVING count(*) > (SELECT count(*) 
 		FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z WHERE c.CocktailNr = cz.CocktailNr AND z.ZutatenNr = cz.ZutatenNr AND z.Alkoholgehalt = 0); 
-			
-			
+
+=========================================================
+> Welche Cocktails haben 'Rum weiß' und 'Cola' als Zutat?
+
+SELECT c.Cocktail
+FROM tblCocktail c, tblCocktailZutaten cz, tblZutat z
+WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr
+AND z.Zutat = 'Rum weiß' AND c.Cocktail IN
+(SELECT c1.Cocktail FROM tblZutat z1, tblCocktailzutaten cz1, tblCocktail c1
+WHERE c1.CocktailNr = cz1.CocktailNr AND cz1.ZutatenNr = z1.ZutatenNr
+AND z1.Zutat = 'Cola');
+
+=========================================================
+> Welche Cocktails haben mindestens 3 gleiche Zutaten wie 'Bloody Mary'?
+
+SELECT c.Cocktail
+FROM tblCocktail c, tblCocktailzutaten cz
+WHERE c.CocktailNr = cz.CocktailNr AND c.Cocktail <> 'Bloody Mary'
+AND cz.ZutatenNr IN 
+(SELECT cz1.ZutatenNr FROM tblCocktail c1, tblCocktailzutaten cz1
+WHERE c1.CocktailNr = cz1.CocktailNr
+AND c1.Cocktail = 'Bloody Mary')
+GROUP BY c.Cocktail
+HAVING count(cz.ZutatenNr) >= 3;
+
+
+=========================================================
+> Welche Cocktails haben den Buchstaben 'B' im Wort?
+
+SELECT c.Cocktail
+FROM tblCocktail c
+WHERE c.Cocktail LIKE 'B%';// bei ms access statt % mit *
+
+=========================================================
+> Welche Cocktails werden ohne Zutat 'Eiswürfel' zubereitet?
+
+SELECT c1.Cocktail
+FROM tblCocktail c1
+WHERE c1.Cocktail NOT IN
+(SELECT c.Cocktail
+FROM tblCocktail c, tblCocktailzutaten cz, tblZutat z
+WHERE c.CocktailNr = cz.CocktailNr AND cz.ZutatenNr = z.ZutatenNr
+AND z.Zutat = 'Eiswürfel');
+
