@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DB Mitschrift/Cocktails.md",
-            "mode": "source",
+            "file": "NSVS/Teststoff.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 180.99999809265137
+    "width": 329.99999809265137
   },
   "right": {
     "id": "8d42d8f4796867e8",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB Mitschrift/Cocktails.md",
+                "file": "NSVS/Teststoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB Mitschrift/Cocktails.md"
+                "file": "NSVS/Teststoff.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "de81564b9fbb4fc1",
   "lastOpenFiles": [
+    "NSVS/Teststoff.md",
+    "NSVS/Test 1.md",
+    "NSVS/Pasted_image_20220328071543.png",
+    "Pasted image 20220328071543.png.md",
+    "Pasted image 20220328075844.png.md",
+    "NSVS/Untitled.md",
     "DB Mitschrift/Cocktails.md",
     "DB Mitschrift/Queries.md",
     "DB Mitschrift/SQL Basics.md",
-    "Allgemein/Testtermine 2. Semester.md",
-    "ORACLE/Data Dictionary.md",
-    "DB Mitschrift/Constraints.md",
-    "HTL/ORACLE/Oracle.md",
-    "HTL/ORACLE/Data Dictionary.md",
-    "HTL/ORACLE/Oracle Setup.md",
-    "HTL/ORACLE/Tablespaces.md"
+    "Allgemein/Testtermine 2. Semester.md"
   ]
 }
