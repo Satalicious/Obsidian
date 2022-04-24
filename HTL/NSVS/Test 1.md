@@ -9,7 +9,7 @@
 
 
 
-> Der Router benötigt nun ==2 Default Gateways== da 2 Netzwerke an ihm hängen und bekommt deswegen 2 IP-Adressen. => Es werden aus dem einem physikalischem Interface 2 virtuelle Interfaces erstellt. 
+> Der Router benötigt nun ==2 Default Gateways==, da 2 Netzwerke an ihm hängen und bekommt deswegen 2 IP-Adressen. => Es werden aus dem einem physikalischem Interface 2 virtuelle Interfaces erstellt. 
 
 ![[Pasted_image_20220328071543.png]]
 *Skizze zum Aufbau eines Systems mit 2 VLANS*
@@ -67,7 +67,7 @@ Kann man anschauen mit **cmd -> arp -a**
 **4.** **IP -destination** -> Routing Table -> best match
 **5.** **Egress Port** -> ist der ausgehende Port
 **6.** wird gesendet MAC/src ist seine eigene
-**7.** MAC/src -> holt er aus dem ARP-Table
+**7.** MAC/dest -> holt er aus dem ARP-Table
 
 **Gehend**
 
