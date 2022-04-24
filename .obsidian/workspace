@@ -7,12 +7,8 @@
         "id": "79b00f4b6c23509d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "HTL/NSVS/Teststoff.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 137
   },
   "right": {
     "id": "31b7b5c71c385185",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/NSVS/Teststoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
-    "HTL/NSVS/Teststoff.md",
+    "HTL/NSVS/Drawing 2022-04-24 20.44.08.excalidraw.md",
     "HTL/NSVS/Test 1.md",
+    "HTL/NSVS/Teststoff.md",
+    "HTL/NSVS/Pasted_image_20220328071543.png",
+    "HTL/NSVS/Pasted_image_20220328075844.png",
     "HTL/NSVS/Untitled.md",
     "HTL/PHP/Database timetracker.md",
     "HTL/PHP/timetrackerER.excalidraw.md",
     "HTL/DB Mitschrift/Datensätze einfügen.md",
-    "HTL/DB Mitschrift/Queries.md",
-    "HTL/DB Mitschrift/Constraints.md",
-    "HTL/DB Mitschrift/SQL Basics.md",
-    "HTL/DB Mitschrift/Cocktails.md"
+    "HTL/DB Mitschrift/Queries.md"
   ]
 }
