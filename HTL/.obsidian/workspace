@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Movies to watch.md",
+            "file": "Untitled.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Movies to watch.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Movies to watch.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -102,19 +102,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "6041c6b76a5cc9b1",
   "lastOpenFiles": [
-    "Movies to watch.md",
-    "Untitled 1.md",
     "Untitled.md",
-    "NSVS/Teststoff.md",
-    "NSVS/Test 1.md",
-    "NSVS/Pasted_image_20220328071543.png",
-    "Pasted image 20220328071543.png.md",
-    "Pasted image 20220328075844.png.md",
-    "NSVS/Untitled.md",
-    "DB Mitschrift/Cocktails.md"
+    "TINF/ersteZeichnung.md",
+    "TINF/TINF Prüfung 1.md",
+    "Datenbanken/SQL Basics.md",
+    "PHP/Database timetracker.md",
+    "PHP/timetrackerER.excalidraw.md",
+    "Datenbanken/Subqueries.md",
+    "Datenbanken/Queries.md",
+    "Datenbanken/Cocktails.md",
+    "Allgemein/Testtermine 2. Semester.md"
   ]
 }
