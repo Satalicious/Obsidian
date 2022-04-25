@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
-            "mode": "source",
+            "file": "Mi's Mitschrift.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Mi's Mitschrift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Referat.md",
+    "Mi's Mitschrift.md",
     "README.md",
+    "Privat/Movies to watch.md",
+    "Referat.md",
     "HTL/DB Mitschrift/Cocktails.md",
     "HTL/DB Mitschrift/Queries.md",
     "HTL/DB Mitschrift/Datensätze einfügen.md",
     "HTL/DB Mitschrift/SQL Basics.md",
     "HTL/DB Mitschrift/Subqueries.md",
-    "HTL/DB Mitschrift/Constraints.md",
-    "HTL/ORACLE/Oracle.md"
+    "HTL/DB Mitschrift/Constraints.md"
   ]
 }

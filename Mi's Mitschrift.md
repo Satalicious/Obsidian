@@ -108,7 +108,7 @@ The programme will output error.
 
 SIZEOF AND STRINGS
 
->> The operator sizeof can be used to determine the length of an array of type int or float. But can it be used to determine the length of an array of type char (or string)?
+> The operator sizeof can be used to determine the length of an array of type int or float. But can it be used to determine the length of an array of type char (or string)?
 
 No. Sizeof cannot be used to determine the length of a string.
 This is because it cannot detect where the '\0' character, which signifies the end of the string, is.
