@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/DB Mitschrift/Cocktails.md",
-            "mode": "preview",
+            "file": "Untitled.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/DB Mitschrift/Cocktails.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
-    "HTL/DB Mitschrift/Cocktails.md",
+    "Untitled.md",
     "Referat.md",
     "README.md",
+    "HTL/DB Mitschrift/Cocktails.md",
     "HTL/DB Mitschrift/Queries.md",
     "HTL/DB Mitschrift/Datensätze einfügen.md",
     "HTL/DB Mitschrift/SQL Basics.md",
     "HTL/DB Mitschrift/Subqueries.md",
     "HTL/DB Mitschrift/Constraints.md",
-    "HTL/ORACLE/Oracle.md",
-    "HTL/ORACLE/Oracle Setup.md"
+    "HTL/ORACLE/Oracle.md"
   ]
 }
