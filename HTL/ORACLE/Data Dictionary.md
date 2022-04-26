@@ -49,3 +49,5 @@ Logische Verwaltung der DB - Objekte (welche der Speicher benötigt)
 **Library Cache:** History von abgesetzten Queries, jeder User hat eigenen Cache => danach schaut ob Daten im Data Buffer sind
 
 ### [[Tablespaces]]
+
+### [[Controlfile]]

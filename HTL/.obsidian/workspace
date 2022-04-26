@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "TINF/TINF Prüfung 1.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "TINF/TINF Prüfung 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "TINF/TINF Prüfung 1.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "6041c6b76a5cc9b1",
   "lastOpenFiles": [
-    "Untitled.md",
-    "TINF/ersteZeichnung.md",
     "TINF/TINF Prüfung 1.md",
+    "TINF/ersteZeichnung.md",
+    "C/Dynamic Memory Management.md",
+    "ORACLE/Oracle.md",
+    "ORACLE/Oracle Setup.md",
+    "ORACLE/Data Dictionary.md",
+    "ORACLE/Controlfile.md",
     "Datenbanken/SQL Basics.md",
-    "PHP/Database timetracker.md",
-    "PHP/timetrackerER.excalidraw.md",
-    "Datenbanken/Subqueries.md",
-    "Datenbanken/Queries.md",
-    "Datenbanken/Cocktails.md",
-    "Allgemein/Testtermine 2. Semester.md"
+    "ORACLE/Tablespaces.md",
+    "ORACLE/Tablespaces_drawing.md"
   ]
 }

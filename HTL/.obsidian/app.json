@@ -10,5 +10,6 @@
   },
   "showLineNumber": false,
   "spellcheck": false,
-  "tabSize": 5
+  "tabSize": 5,
+  "alwaysUpdateLinks": true
 }
