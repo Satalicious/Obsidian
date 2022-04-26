@@ -26,3 +26,6 @@ SHOW user;                  ... Anzeige des aktuellen Users
 		1. Instanz erzeugen [create]
 		2. Controlfile auslesen [mount]
 		3. Dateien öffnen [open]
+
+---
+
