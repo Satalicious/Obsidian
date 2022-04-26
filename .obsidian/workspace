@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mi's Mitschrift.md",
-            "mode": "preview",
+            "file": "Privat/Movies to watch.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mi's Mitschrift.md",
+                "file": "Privat/Movies to watch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
+    "Privat/Movies to watch.md",
     "Mi's Mitschrift.md",
     "README.md",
-    "Privat/Movies to watch.md",
     "Referat.md",
     "HTL/DB Mitschrift/Cocktails.md",
     "HTL/DB Mitschrift/Queries.md",
