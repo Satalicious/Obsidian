@@ -30,7 +30,8 @@ Fehler | Array[1...10] of "Fehlermeldung"
 
 ---
 
-##### Hier eine Skizze: [[Verschachtelung.excalidraw]]
+![[Verschachtelung.jpg.png]]
+
 => weiters der Ablauf im Main:
 
 1. Aufruf des übergeordneten FB's

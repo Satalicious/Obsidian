@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Privat/Movies to watch.md",
-            "mode": "source",
+            "file": "HTL/AUT/AUT_Meldesystem.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privat/Movies to watch.md",
+                "file": "HTL/AUT/AUT_Meldesystem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
+    "HTL/AUT/AUT_Meldesystem.md",
+    "HTL/AUT/Verschachtelung.excalidraw.md",
+    "HTL/Datenbanken/Datensätze einfügen.md",
+    "HTL/C/POS_Zingerle.md",
+    "HTL/C/POS_Senarclens.md",
     "Privat/Movies to watch.md",
-    "Mi's Mitschrift.md",
-    "README.md",
-    "Referat.md",
-    "HTL/DB Mitschrift/Cocktails.md",
-    "HTL/DB Mitschrift/Queries.md",
-    "HTL/DB Mitschrift/Datensätze einfügen.md",
-    "HTL/DB Mitschrift/SQL Basics.md",
-    "HTL/DB Mitschrift/Subqueries.md",
-    "HTL/DB Mitschrift/Constraints.md"
+    "HTL/Datenbanken/SQL Basics.md",
+    "HTL/Datenbanken/Subqueries.md",
+    "HTL/Datenbanken/Queries.md",
+    "HTL/Datenbanken/Constraints.md"
   ]
 }

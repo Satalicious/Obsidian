@@ -1,1 +1,5 @@
-{}
+{
+  "baseFontSize": 19,
+  "cssTheme": "Obsidian gruvbox",
+  "translucency": true
+}
