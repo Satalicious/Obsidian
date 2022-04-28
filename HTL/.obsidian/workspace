@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.99999809265137
+    "width": 233.99999809265137
   },
   "right": {
     "id": "8d42d8f4796867e8",
@@ -109,13 +109,13 @@
   "lastOpenFiles": [
     "TINF/TINF Prüfung 1.md",
     "TINF/ersteZeichnung.md",
-    "C/Dynamic Memory Management.md",
-    "ORACLE/Oracle.md",
-    "ORACLE/Oracle Setup.md",
-    "ORACLE/Data Dictionary.md",
-    "ORACLE/Controlfile.md",
-    "Datenbanken/SQL Basics.md",
+    "Allgemein/Testtermine 2. Semester.md",
+    "AUT/AUT_Meldesystem.md",
+    "ORACLE/Tablespaces_drawing.md",
     "ORACLE/Tablespaces.md",
-    "ORACLE/Tablespaces_drawing.md"
+    "ORACLE/Oracle Setup.md",
+    "ORACLE/Oracle.md",
+    "ORACLE/Data Dictionary.md",
+    "ORACLE/Controlfile.md"
   ]
 }
