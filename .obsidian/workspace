@@ -7,9 +7,23 @@
         "id": "79b00f4b6c23509d",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "HTL/PHP/timetrackerER.excalidraw.md"
+            "file": "HTL/C/Unit Testing.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "db319bdbb60be775",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "HTL/ORACLE/Data Dictionary.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/PHP/timetrackerER.excalidraw.md",
+                "file": "HTL/C/Unit Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +101,15 @@
   },
   "active": "79b00f4b6c23509d",
   "lastOpenFiles": [
-    "HTL/PHP/timetrackerER.excalidraw.md",
-    "HTL/PHP/Database timetracker.md",
-    "HTL/AUT/AUT_Meldesystem.md",
-    "HTL/AUT/Verschachtelung.excalidraw.md",
-    "HTL/ORACLE/Tablespaces_drawing.md",
-    "images/Verschachtelung.jpg.png",
-    "images/Pasted_image_20220309102443.png",
-    "Privat/Movies to watch.md",
+    "HTL/C/Unit Testing.md",
+    "HTL/C/POS_Senarclens.md",
+    "HTL/C/POS_Zingerle.md",
     "HTL/C/Mi's Mitschrift.md",
-    "HTL/ORACLE/Oracle Setup.md"
+    "HTL/C/Dynamic Memory Management.md",
+    "HTL/Allgemein/Testtermine 2. Semester.md",
+    "HTL/Datenbanken/Cocktails.md",
+    "HTL/Datenbanken/Queries.md",
+    "HTL/Datenbanken/SQL Basics.md",
+    "HTL/Datenbanken/Subqueries.md"
   ]
 }

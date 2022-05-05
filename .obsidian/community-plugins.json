@@ -2,5 +2,9 @@
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
   "remember-cursor-position",
-  "obsidian-emoji-toolbar"
+  "obsidian-emoji-toolbar",
+  "obsidian-admonition",
+  "highlightr-plugin",
+  "obsidian-extract-pdf-highlights",
+  "obsidian-tabs"
 ]

@@ -6,6 +6,10 @@ CREATE DATABASE timetracker;
 ```
 
 ```sql
+use timetracker;
+```
+
+```sql
 CREATE TABLE companies (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(32));
 ```
 
