@@ -3,8 +3,18 @@
 Quick Help: https://docs.oracle.com/cd/F49540_01/DOC/server.815/a66735.pdf
 SQL Quieres: [[SQL Basics]]
 
+---
+
 [[Data Dictionary]]
+
 [[Tablespaces]]
+
+[[User Management]]
+
+[[ControlFile]]
+
+[[Docki's Unterlagen.pdf]]
+
 ---
 ---
 

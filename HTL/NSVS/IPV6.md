@@ -1,4 +1,6 @@
 
+[[Labor Packettracer iPV6]]
+
 **Link-Local : FE80 :**             /64            // lokale Adressierung
 **Global Unicast : 2001 :**      /64           // globale Adressierung 
 

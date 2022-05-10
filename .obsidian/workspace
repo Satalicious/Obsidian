@@ -7,10 +7,158 @@
         "id": "79b00f4b6c23509d",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "HTL/NSVS/ipv6old.pdf"
+            "file": "HTL/ORACLE/User Management.md",
+            "mode": "preview",
+            "source": false
           }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "79b00f4b6c23509d",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            }
+          ]
+        }
+      },
+      {
+        "id": "67c3d03c1b2476b8",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw",
+          "state": {
+            "file": "HTL/ORACLE/Tablespaces_drawing.md"
+          }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":2},\"to\":{\"line\":11,\"ch\":2}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/ControlFile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0.5832}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Dynamic Memory Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":92.45055213341347}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Labor Packettracer iPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/IPV6.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Labor Packettracer iPV6.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":10.80267405921642}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"graph\",\"state\":{}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":357,\"ch\":0},\"to\":{\"line\":357,\"ch\":0}},\"scroll\":345.5640859701643}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Unit Testing.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Zingerle.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":342,\"ch\":23},\"to\":{\"line\":342,\"ch\":23}},\"scroll\":7.242468412230615}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":4},\"to\":{\"line\":13,\"ch\":4}},\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/C/Git-Cheatsheet.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":4},\"to\":{\"line\":13,\"ch\":4}},\"scroll\":13.7876}"
+            }
+          ]
         }
       },
       {
@@ -23,6 +171,17 @@
             "mode": "source",
             "source": false
           }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":34},\"to\":{\"line\":2,\"ch\":34}},\"scroll\":2.584507779823852}"
+            }
+          ]
         }
       }
     ],
@@ -42,6 +201,10 @@
             "state": {
               "type": "file-explorer",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -57,13 +220,18 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "31b7b5c71c385185",
@@ -79,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/NSVS/ipv6old.pdf",
+                "file": "HTL/ORACLE/Tablespaces_drawing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +256,10 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
@@ -97,17 +269,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "79b00f4b6c23509d",
+  "active": "67c3d03c1b2476b8",
   "lastOpenFiles": [
-    "HTL/NSVS/ipv6old.pdf",
-    "HTL/NSVS/NTD1n_vr5_ipv6.pdf",
-    "HTL/NSVS/IPV6.md",
-    "HTL/NSVS/Pasted_image_20220328075844.png",
-    "HTL/NSVS/Pasted_image_20220328071543.png",
-    "HTL/Allgemein/Testtermine 2. Semester.md",
-    "README.md",
-    "Labor Packettracer iPV6.md",
-    "HTL/C/Unit Testing.md",
-    "HTL/C/POS_Senarclens.md"
+    "HTL/ORACLE/Tablespaces_drawing.md",
+    "HTL/ORACLE/User Management.md",
+    "HTL/ORACLE/Data Dictionary.md",
+    "HTL/ORACLE/Tablespaces.md",
+    "HTL/ORACLE/Logfiles.md",
+    "HTL/ORACLE/ControlFile.md",
+    "HTL/ORACLE/Oracle.md",
+    "HTL/C/Mi's Mitschrift.md",
+    "HTL/C/Dynamic Memory Management.md",
+    "HTL/NSVS/Labor Packettracer iPV6.md"
   ]
 }

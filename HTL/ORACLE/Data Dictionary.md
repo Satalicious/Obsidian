@@ -50,4 +50,4 @@ Logische Verwaltung der DB - Objekte (welche der Speicher benötigt)
 
 ### [[Tablespaces]]
 
-### [[Controlfile]]
+### [[ControlFile]]
