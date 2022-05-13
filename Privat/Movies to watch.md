@@ -5,5 +5,19 @@
 - [ ] Lost in Translation
 - [ ] Life of Pi
 - [ ] Eternal Sunshine Of The Spotless Mind 
-- [x] - [ ] Cave of Forgotten Dreams 11.04.2022 
+- [x] Cave of Forgotten Dreams 11.04.2022 
 - [x] Wild at Heart 03.11.2022
+- [ ] Sunshine
+- [ ] Königreich für ein Lama
+- [ ] Noah
+- [ ] Hot Shots 2
+- [ ] Pakt der Wölfe
+- [ ] Revenge of the Warrior
+- [ ] UHF
+- [ ] Drive
+- [ ] Lemony Snicket
+- [ ] Chronicles of Riddick
+- [ ] Reise ins Ich
+- [ ] Kein Pardon
+- [ ] Dämonisch - Frailty
+- [ ] Der blutige Pfad Gottes

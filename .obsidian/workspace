@@ -21,7 +21,7 @@
               "leaf": "79b00f4b6c23509d",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"scroll\":8.084745762711865}"
             }
           ]
         }
@@ -32,14 +32,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/AUT/Analog-Digital Umwerter.md",
-            "mode": "source",
+            "file": "Privat/Movies to watch.md",
+            "mode": "preview",
             "source": false
           }
         },
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Privat/Movies to watch.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
@@ -153,12 +159,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Dynamic Memory Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":92.45055213341347}"
             }
           ]
         }
@@ -181,7 +181,7 @@
               "leaf": "db319bdbb60be775",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":34},\"to\":{\"line\":2,\"ch\":34}},\"scroll\":2.584507779823852}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.096}"
             }
           ]
         }
@@ -248,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/AUT/Analog-Digital Umwerter.md",
+                "file": "Privat/Movies to watch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,15 +272,15 @@
   },
   "active": "67c3d03c1b2476b8",
   "lastOpenFiles": [
+    "Privat/Movies to watch.md",
+    "HTL/ORACLE/User Management.md",
+    "HTL/ORACLE/Data Dictionary.md",
     "HTL/AUT/Analog-Digital Umwerter.md",
     "HTL/AUT/Analog-Digital.excalidraw.md",
     "HTL/AUT/AUT_Meldesystem.md",
     "HTL/AUT/Verschachtelung.excalidraw.md",
     "HTL/ORACLE/Tablespaces_drawing.md",
-    "HTL/ORACLE/User Management.md",
-    "HTL/ORACLE/Data Dictionary.md",
     "HTL/ORACLE/Tablespaces.md",
-    "HTL/ORACLE/Logfiles.md",
-    "HTL/ORACLE/ControlFile.md"
+    "HTL/ORACLE/Logfiles.md"
   ]
 }
