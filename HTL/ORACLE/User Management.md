@@ -26,3 +26,16 @@ ALTER USER akift22 QUOTA 10M ON users;
 ```sql
 GRANT CREATE TABLE TO akift22;
 ```
+
+- User anlegen und CREATE TABLE granten
+```sql
+CREATE USER akift_test IDENTIFIED BY akift_test;
+
+GRANT CONNECT TO akift_test;
+
+ALTER USER akift_test DEFAULT TABLESPACE USERS;
+
+ALTER USER akift_test QUOTA 10M ON users;
+
+GRANT CREATE TABLE TO akift_test;
+```

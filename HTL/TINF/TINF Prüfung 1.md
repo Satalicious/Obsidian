@@ -4,7 +4,8 @@
 - Interrupts
 - Callback
 - Timer
-
+- PWM
+- Analog Eingang
 - DigitalOut, DigitalIn umgehen können
 - BusOut (wie man definiert und ein Lauflicht macht)
 
