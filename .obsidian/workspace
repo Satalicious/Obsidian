@@ -33,7 +33,7 @@
           "type": "markdown",
           "state": {
             "file": "HTL/Allgemein/WIR.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         },
@@ -43,8 +43,86 @@
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":20.718242665907148}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"image\",\"state\":{\"file\":\"HTL/Allgemein/index.jpg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":121.11907407781135}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/Arbeitsrecht_Beendigung_2022.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/Allgemein/Arbeitsrecht_Beendigung_2022.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"image\",\"state\":{\"file\":\"HTL/Allgemein/index.jpg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":25},\"to\":{\"line\":15,\"ch\":25}},\"scroll\":5.0355}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/Allgemein/Arbeitsrecht.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "67c3d03c1b2476b8",
@@ -81,84 +159,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":60.60925808074069}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle Setup.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":61},\"to\":{\"line\":24,\"ch\":61}},\"scroll\":0}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle Setup.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":18.937727392216242}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/multiFiles-Checklist.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":1.7010934812982181}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":5.0355}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Labor Packettracer iPV6.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":30.6253}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Unit Testing.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         }
@@ -273,14 +273,14 @@
   "active": "67c3d03c1b2476b8",
   "lastOpenFiles": [
     "HTL/Allgemein/WIR.md",
+    "HTL/Allgemein/index.jpg",
+    "HTL/Allgemein/Testtermine 2. Semester.md",
+    "HTL/Arbeitsrecht_Beendigung_2022.pdf",
+    "HTL/Allgemein/Arbeitsrecht_Beendigung_2022.pdf",
+    "HTL/Allgemein/Arbeitsrecht.pdf",
     "HTL/ORACLE/User Management.md",
     "HTL/ORACLE/ControlFile.md",
     "HTL/ORACLE/Data Dictionary.md",
-    "HTL/ORACLE/Docki's Unterlagen.pdf",
-    "HTL/ORACLE/Logfiles.md",
-    "HTL/ORACLE/Oracle.md",
-    "HTL/ORACLE/Oracle Setup.md",
-    "HTL/ORACLE/Tablespaces.md",
-    "HTL/ORACLE/Tablespaces_drawing.md"
+    "HTL/ORACLE/Docki's Unterlagen.pdf"
   ]
 }

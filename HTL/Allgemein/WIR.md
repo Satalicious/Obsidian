@@ -21,7 +21,7 @@ Eigentlich nicht erlaubt ausnahme Branchen üblich Bsp. Schauspieler.
 Jeder von beiden darf Vertrag Kündigen. Probe Zeit Reguler 1 Monat Lehrlinge 3 Monate.
 ======================================================================================================
 
-### Dienst-Zettel: 
+### Dienst-Zettel
 - Kurzfassung des Arbeitsvertrag 
 - Gehalt, Kollektivvertrag, Tätigkeit
 - Allgemeine Daten der Firma
