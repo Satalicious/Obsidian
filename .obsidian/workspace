@@ -32,8 +32,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/Allgemein/WIR.md",
-            "mode": "preview",
+            "file": "HTL/AUT/AUT_Meldesystem.md",
+            "mode": "source",
             "source": false
           }
         },
@@ -43,8 +43,26 @@
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/AUT_Meldesystem.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":0},\"to\":{\"line\":47,\"ch\":0}},\"scroll\":38.96088631248327}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/AUT/Analog-Digital.excalidraw.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/AUT/Verschachtelung.excalidraw.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":20.718242665907148}"
+              "eState": "{}"
             },
             {
               "leaf": "67c3d03c1b2476b8",
@@ -141,24 +159,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/ControlFile.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":27},\"to\":{\"line\":7,\"ch\":27}},\"scroll\":0}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.32824940860814655}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/ORACLE/Docki's Unterlagen.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             }
           ]
         }
@@ -248,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/Allgemein/WIR.md",
+                "file": "HTL/AUT/AUT_Meldesystem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,15 +272,15 @@
   },
   "active": "67c3d03c1b2476b8",
   "lastOpenFiles": [
+    "HTL/AUT/AUT_Meldesystem.md",
+    "HTL/AUT/Analog-Digital.excalidraw.md",
+    "HTL/AUT/Verschachtelung.excalidraw.md",
     "HTL/Allgemein/WIR.md",
     "HTL/Allgemein/index.jpg",
     "HTL/Allgemein/Testtermine 2. Semester.md",
     "HTL/Arbeitsrecht_Beendigung_2022.pdf",
     "HTL/Allgemein/Arbeitsrecht_Beendigung_2022.pdf",
     "HTL/Allgemein/Arbeitsrecht.pdf",
-    "HTL/ORACLE/User Management.md",
-    "HTL/ORACLE/ControlFile.md",
-    "HTL/ORACLE/Data Dictionary.md",
-    "HTL/ORACLE/Docki's Unterlagen.pdf"
+    "HTL/ORACLE/User Management.md"
   ]
 }

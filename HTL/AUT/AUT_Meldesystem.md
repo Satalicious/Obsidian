@@ -45,6 +45,12 @@ Fehler | Array[1...10] of "Fehlermeldung"
 		-  von Instanz Zustände in die Variablen kopiert
 
 
+---
 
+
+![[Pasted image 20220519083245.png]]
+
+**Ultaschallsingal INT
+Füllstand REAL**
 
 
