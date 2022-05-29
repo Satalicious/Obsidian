@@ -9,11 +9,8 @@
 - [x] Wild at Heart 03.11.2022
 - [ ] Sunshine
 - [ ] Königreich für ein Lama
-- [ ] Noah
-- [ ] Hot Shots 2
 - [ ] Pakt der Wölfe
 - [ ] Revenge of the Warrior
-- [ ] UHF
 - [ ] Drive
 - [ ] Lemony Snicket
 - [ ] Chronicles of Riddick
@@ -21,3 +18,6 @@
 - [ ] Kein Pardon
 - [ ] Dämonisch - Frailty
 - [ ] Der blutige Pfad Gottes
+- [ ] Sin City
+- [ ] Taxi Driver
+- [ ] Midsommar

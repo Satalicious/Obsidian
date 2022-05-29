@@ -47,10 +47,16 @@ Fehler | Array[1...10] of "Fehlermeldung"
 
 ---
 
+![[Pasted image 20220523111949.png]]
+**ADU-Wert INT
+Temperatur REAL**
 
-![[Pasted image 20220519083245.png]]
-
+---
+![[Pasted image 20220523112414.png]]
 **Ultaschallsingal INT
 Füllstand REAL**
 
-
+---
+![[Pasted image 20220523112026.png]]
+**Pumpleistung REAL
+Pumpensignal INT**

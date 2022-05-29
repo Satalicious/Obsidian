@@ -21,7 +21,7 @@
               "leaf": "79b00f4b6c23509d",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":8.084745762711865}"
+              "eState": "{}"
             }
           ]
         }
@@ -32,8 +32,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/AUT/AUT_Meldesystem.md",
-            "mode": "source",
+            "file": "HTL/ORACLE/Tablespaces.md",
+            "mode": "preview",
             "source": false
           }
         },
@@ -43,8 +43,26 @@
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":22.6567}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":3.195688771677541}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":339.7288812087597}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/AUT_Meldesystem.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":0},\"to\":{\"line\":47,\"ch\":0}},\"scroll\":38.96088631248327}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":16},\"to\":{\"line\":61,\"ch\":16}},\"scroll\":0}"
             },
             {
               "leaf": "67c3d03c1b2476b8",
@@ -55,92 +73,8 @@
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/AUT/Verschachtelung.excalidraw.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"image\",\"state\":{\"file\":\"HTL/Allgemein/index.jpg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/Arbeitsrecht_Beendigung_2022.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/Allgemein/Arbeitsrecht_Beendigung_2022.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"image\",\"state\":{\"file\":\"HTL/Allgemein/index.jpg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":25},\"to\":{\"line\":15,\"ch\":25}},\"scroll\":5.0355}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/Allgemein/Arbeitsrecht.pdf\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "67c3d03c1b2476b8",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/WIR.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/Analog-Digital Umwerter.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":1.5749964767176778}"
             },
             {
               "leaf": "67c3d03c1b2476b8",
@@ -151,14 +85,80 @@
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":13.722660388104778}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "67c3d03c1b2476b8",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/ControlFile.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":27},\"to\":{\"line\":7,\"ch\":27}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/AUT_Meldesystem.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":14.3579}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/Analog-Digital Umwerter.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/AUT/Verschachtelung.excalidraw.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/AUT_Meldesystem.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":24.267963115985577}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/AUT/Analog-Digital Umwerter.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/AUT/Analog-Digital.excalidraw.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":1},\"to\":{\"line\":12,\"ch\":1}}}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "67c3d03c1b2476b8",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Allgemein/Testtermine 2. Semester.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
             }
           ]
         }
@@ -169,7 +169,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/ORACLE/Data Dictionary.md",
+            "file": "HTL/NSVS/SNM Table.md",
             "mode": "source",
             "source": false
           }
@@ -180,8 +180,122 @@
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.096}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/SNM Table.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Labor_Packettracer_iPV6.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":121.14120932418979}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/NSVS/ipv6old.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/IPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":24.27896543560606}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/alexander's mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":73.89370023287259}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/IPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":1.0748496145572302}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/alexander's mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":53.58854323167067}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/IPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":14.987412950936939}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/VLAN.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Teststoff.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":64.57853251292293}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Test 1.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/alexander's mitschrift.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/IPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":20.862756523296987}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/NSVS/ipv6old.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Labor_Packettracer_iPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/SNM Table.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/Labor_Packettracer_iPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":99.20667174622253}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/NSVS/ipv6old.pdf\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/IPV6.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":10.858410957532051}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/NSVS/SNM Table.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
             }
           ]
         }
@@ -248,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/AUT/AUT_Meldesystem.md",
+                "file": "HTL/NSVS/SNM Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,17 +384,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "67c3d03c1b2476b8",
+  "active": "db319bdbb60be775",
   "lastOpenFiles": [
-    "HTL/AUT/AUT_Meldesystem.md",
-    "HTL/AUT/Analog-Digital.excalidraw.md",
-    "HTL/AUT/Verschachtelung.excalidraw.md",
-    "HTL/Allgemein/WIR.md",
-    "HTL/Allgemein/index.jpg",
-    "HTL/Allgemein/Testtermine 2. Semester.md",
-    "HTL/Arbeitsrecht_Beendigung_2022.pdf",
-    "HTL/Allgemein/Arbeitsrecht_Beendigung_2022.pdf",
-    "HTL/Allgemein/Arbeitsrecht.pdf",
-    "HTL/ORACLE/User Management.md"
+    "HTL/NSVS/SNM Table.md",
+    "HTL/NSVS/Labor_Packettracer_iPV6.md",
+    "HTL/NSVS/ipv6old.pdf",
+    "HTL/NSVS/IPV6.md",
+    "HTL/NSVS/alexander's mitschrift.md",
+    "HTL/NSVS/VLAN.md",
+    "HTL/NSVS/Teststoff.md",
+    "HTL/NSVS/Test 1.md",
+    "HTL/NSVS/NTD1n_vr5_ipv6.pdf",
+    "HTL/C/POS_Zingerle.md"
   ]
 }
