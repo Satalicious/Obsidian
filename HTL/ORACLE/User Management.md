@@ -39,3 +39,10 @@ ALTER USER akift_test QUOTA 10M ON users;
 
 GRANT CREATE TABLE TO akift_test;
 ```
+##### Granting Object Privileges
+```SQL
+GRANT SELECT ON clients TO PUBLIC;
+```
+```SQL
+GRANT UPDATE(first_name, last_name) ON clients TO jennifer_cho, manager;
+```

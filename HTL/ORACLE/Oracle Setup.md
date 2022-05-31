@@ -13,20 +13,5 @@ SHOW user;                  ... Anzeige des aktuellen Users
 ```
 
 ---
-
-## SHUTDOWN / STARTUP
-=> **shutdown** \<mode>
- \<mode>:
-- normal: //default, alle Sitzungen müssen beendet sein
-- transactional
-- immediate
-- abort
----
-=> **startup** //startet DBMS
-		1. Instanz erzeugen [create]
-		2. Controlfile auslesen [mount]
-		3. Dateien öffnen [open]
-
----
-
+[[Start OR Stop des DBMS]]
 

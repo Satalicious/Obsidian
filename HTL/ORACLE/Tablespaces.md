@@ -4,8 +4,6 @@
 #### Menge der log. zusammengehörenden DB Objekte
 
 
-
-
 ```sql 
 SELECT file_name FROM DBA_DATA_FILES;
 ```

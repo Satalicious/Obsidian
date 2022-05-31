@@ -6,10 +6,10 @@
   "compress": false,
   "autosave": true,
   "autosaveInterval": 10000,
-  "drawingFilenamePrefix": "Drawing ",
+  "drawingFilenamePrefix": "ED",
   "drawingEmbedPrefixWithFilename": true,
   "drawingFilnameEmbedPostfix": " ",
-  "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
+  "drawingFilenameDateTime": "MM-DD",
   "useExcalidrawExtension": true,
   "displaySVGInPreview": true,
   "displayExportedImageIfAvailable": false,
@@ -69,6 +69,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "1.6.28",
-  "showReleaseNotes": true
+  "previousRelease": "1.6.33",
+  "showReleaseNotes": true,
+  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
 }
