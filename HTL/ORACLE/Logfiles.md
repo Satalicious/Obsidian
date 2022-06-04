@@ -12,7 +12,7 @@ SELECT group, members, status from V$LOG;
 
 ALTER SYSTEM SWITCH LOGFILE; // um gespiegelte Files zu switchen
 
-SELECT member FROM V$LOGFILE;#
+SELECT member FROM V$LOGFILE;
 
 ALTER DATABASE ADD LOGFILE;
 ```

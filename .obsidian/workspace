@@ -7,8 +7,12 @@
         "id": "db319bdbb60be775",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "HTL/ORACLE/Start OR Stop des DBMS.md",
+            "mode": "preview",
+            "source": false
+          }
         },
         "pane-relief:history-v1": {
           "pos": 0,
@@ -16,80 +20,50 @@
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"graph\",\"state\":{}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Privat/Movies to watch.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"graph\",\"state\":{}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles-Details.excalidraw.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Start OR Stop des DBMS.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/ORACLE/Docki's Unterlagen.pdf\"}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Main.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles-Details.excalidraw.md\"}}",
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Luecke.md\"}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Start OR Stop des DBMS.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0.9028809006149704}"
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum 2Knoten.md\"}}",
+              "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle Setup.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":8.128368616780653}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Oracle.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum 4Knoten.md\"}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+              "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
@@ -100,37 +74,67 @@
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Main.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":23.097507911392405}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Queries.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":8.305926186697823}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Datensätze einfügen.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Queries.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Cocktails.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Constraints.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/ControlFile.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Logfiles.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Subqueries.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Queries.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/SQL Basics.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":71.42135584295721}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":19.399323918269232}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             }
           ]
@@ -182,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50000190734863,
-    "collapsed": true
+    "width": 301.50000190734863
   },
   "right": {
     "id": "31b7b5c71c385185",
@@ -199,6 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HTL/ORACLE/Start OR Stop des DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,15 +226,15 @@
   },
   "active": "db319bdbb60be775",
   "lastOpenFiles": [
-    "Privat/Movies to watch.md",
-    "HTL/TINF/TINF_-_Review.md",
-    "HTL/ORACLE/Logfiles-Details.excalidraw.md",
     "HTL/ORACLE/Start OR Stop des DBMS.md",
-    "HTL/ORACLE/Tablespaces.md",
-    "HTL/ORACLE/Tablespaces_drawing.md",
+    "HTL/ORACLE/Docki's Unterlagen.pdf",
+    "HTL/ORACLE/Data Dictionary.md",
+    "HTL/ORACLE/B-Baum Main.md",
+    "HTL/ORACLE/B-Baum Luecke.md",
+    "HTL/ORACLE/B-Baum 2Knoten.md",
+    "HTL/ORACLE/B-Baum 4Knoten.md",
+    "HTL/ORACLE/ControlFile.md",
     "HTL/ORACLE/User Management.md",
-    "HTL/ORACLE/Oracle Setup.md",
-    "HTL/ORACLE/Oracle.md",
-    "HTL/ORACLE/Data Dictionary.md"
+    "HTL/Datenbanken/Queries.md"
   ]
 }

@@ -19,7 +19,7 @@ ALTER USER akift22 DEFAULT TABLESPACE users;
 
 - User eine **Datenmenge** zuweisen 
 ```sql
-ALTER USER akift22 QUOTA 10M ON users;
+ALTER USER akift22 QUOTA 10M ON USERS;
 ```
 
 - Systemprivileg: **CREATE TABLE** (**inkl.** SELECT, UPDATE, ..)
