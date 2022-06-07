@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/ORACLE/Start OR Stop des DBMS.md",
+            "file": "HTL/C/Cheatsheet 2. Exam.md",
             "mode": "preview",
             "source": false
           }
@@ -20,26 +20,104 @@
             {
               "leaf": "db319bdbb60be775",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Cheatsheet 2. Exam.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":121.72323014290092}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":29.863935231811134}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Cheatsheet 2. Exam.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":0},\"to\":{\"line\":60,\"ch\":0}},\"scroll\":39.429677535729546}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":318.0548162774725}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Dynamic Memory Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":94.19729966069035}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Start OR Stop des DBMS.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/ORACLE/Docki's Unterlagen.pdf\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":30.3859}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":30.385907341452207}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Main.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":4.884585684918343}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":1.0822281015330348}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Trigger.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Trigger.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "db319bdbb60be775",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
@@ -50,91 +128,13 @@
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum 2Knoten.md\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Main.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "db319bdbb60be775",
               "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum 4Knoten.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/ControlFile.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":23.097507911392405}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Queries.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":8.305926186697823}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Datensätze einfügen.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Queries.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Cocktails.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Constraints.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Subqueries.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/Queries.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/Datenbanken/SQL Basics.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":71.42135584295721}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":19.399323918269232}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Start OR Stop des DBMS.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             }
           ]
@@ -169,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/ORACLE/Start OR Stop des DBMS.md",
+                "file": "HTL/C/Cheatsheet 2. Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,15 +226,15 @@
   },
   "active": "db319bdbb60be775",
   "lastOpenFiles": [
+    "HTL/C/Cheatsheet 2. Exam.md",
+    "HTL/C/POS_Senarclens.md",
+    "HTL/C/Mi's Mitschrift.md",
+    "HTL/C/Dynamic Memory Management.md",
+    "HTL/ORACLE/Redo-Logfile.md",
     "HTL/ORACLE/Start OR Stop des DBMS.md",
-    "HTL/ORACLE/Docki's Unterlagen.pdf",
-    "HTL/ORACLE/Data Dictionary.md",
-    "HTL/ORACLE/B-Baum Main.md",
-    "HTL/ORACLE/B-Baum Luecke.md",
-    "HTL/ORACLE/B-Baum 2Knoten.md",
-    "HTL/ORACLE/B-Baum 4Knoten.md",
-    "HTL/ORACLE/ControlFile.md",
     "HTL/ORACLE/User Management.md",
-    "HTL/Datenbanken/Queries.md"
+    "HTL/ORACLE/Data Dictionary.md",
+    "HTL/ORACLE/Trigger.md",
+    "HTL/ORACLE/B-Baum Luecke.md"
   ]
 }

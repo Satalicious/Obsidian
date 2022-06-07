@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TINF/TINF Prüfung 1.md",
+            "file": "ORACLE/Data Dictionary.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TINF/TINF Prüfung 1.md",
+                "file": "ORACLE/Data Dictionary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TINF/TINF Prüfung 1.md"
+                "file": "ORACLE/Data Dictionary.md"
               }
             }
           }
@@ -107,6 +107,7 @@
   },
   "active": "6041c6b76a5cc9b1",
   "lastOpenFiles": [
+    "ORACLE/Data Dictionary.md",
     "TINF/TINF Prüfung 1.md",
     "TINF/ersteZeichnung.md",
     "Allgemein/Testtermine 2. Semester.md",
@@ -115,7 +116,6 @@
     "ORACLE/Tablespaces.md",
     "ORACLE/Oracle Setup.md",
     "ORACLE/Oracle.md",
-    "ORACLE/Data Dictionary.md",
     "ORACLE/Controlfile.md"
   ]
 }

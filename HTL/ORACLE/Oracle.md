@@ -117,7 +117,6 @@ SELECT department_name, avg(salaray)
 			ORDER BY 2 DESC;
 ```
 
-
 => Über Control Files ...
 ```sql
 DESC V$CONTROLFILE;
