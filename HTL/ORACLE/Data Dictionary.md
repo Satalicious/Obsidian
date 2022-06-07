@@ -1,6 +1,6 @@
 ### DATA_DICTIONARY
 
-**Menge von Inforamtionen über den Inhalt des Datenbestands**
+**Menge von Informationen über den Inhalt des Datenbestands**
 
 -   **Datenbankobjekte**
 		- Tabelle
