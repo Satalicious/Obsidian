@@ -9,7 +9,7 @@
 		connect System
 		
 ```SQL
-SHOW user;                  ... Anzeige des aktuellen Users
+SHOW user;      ... Anzeige des aktuellen Users
 ```
 
 ---

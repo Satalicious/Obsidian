@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "3be4a40b2068492e",
+    "id": "3bd36b825c1592f0",
     "type": "split",
     "children": [
       {
-        "id": "db319bdbb60be775",
+        "id": "fea3806f30991212",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTL/C/Cheatsheet 2. Exam.md",
-            "mode": "preview",
+            "file": "HTL/C/multiFiles-Checklist.md",
+            "mode": "source",
             "source": false
           }
         },
@@ -18,123 +18,111 @@
           "pos": 0,
           "stack": [
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Cheatsheet 2. Exam.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/multiFiles-Checklist.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":121.72323014290092}"
+              "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":29.863935231811134}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Cheatsheet 2. Exam.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":0},\"to\":{\"line\":60,\"ch\":0}},\"scroll\":39.429677535729546}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Dynamic Memory Management.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/POS_Senarclens.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":318.0548162774725}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Unit Testing.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Dynamic Memory Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":94.19729966069035}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/C/Mi's Mitschrift.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"HTL/C/Git-Cheatsheet.pdf\"}}",
               "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Start OR Stop des DBMS.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":2.22992700729927}"
+            },
+            {
+              "leaf": "fea3806f30991212",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Controlfile.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "fea3806f30991212",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Adminstrative Tables.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":30.3859}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
               "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":30.385907341452207}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Data Dictionary.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":4.884585684918343}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/User Management.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":1.0822281015330348}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Trigger.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
               "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "fea3806f30991212",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/Tablespaces_drawing.md\"}}",
               "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Trigger.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Controlfile.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
             {
-              "leaf": "db319bdbb60be775",
+              "leaf": "fea3806f30991212",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Redo-Logfile.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Luecke.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/B-Baum Main.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "db319bdbb60be775",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"HTL/ORACLE/Start OR Stop des DBMS.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"empty\",\"state\":{}}",
               "eState": "{}"
             }
           ]
@@ -144,15 +132,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "532a312925d373e0",
+    "id": "0c33da3a032ea829",
     "type": "split",
     "children": [
       {
-        "id": "cc139d756e1537bf",
+        "id": "a2f2d418fd285a5c",
         "type": "tabs",
         "children": [
           {
-            "id": "fa96ccbe4fb87460",
+            "id": "345ac21eaafe325b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -164,12 +152,12 @@
             }
           },
           {
-            "id": "bdc1d77b6b19c615",
+            "id": "c97356ada2a47091",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "redo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,29 +174,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.50000190734863
+    "width": 300
   },
   "right": {
-    "id": "31b7b5c71c385185",
+    "id": "94f5a9707af5361f",
     "type": "split",
     "children": [
       {
-        "id": "03180bbc7b5125ab",
+        "id": "06c81449156e4015",
         "type": "tabs",
         "children": [
           {
-            "id": "d1e2762fec9dc7f7",
+            "id": "b136080818232d67",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTL/C/Cheatsheet 2. Exam.md",
+                "file": "HTL/C/multiFiles-Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             },
@@ -224,17 +212,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db319bdbb60be775",
+  "active": "fea3806f30991212",
   "lastOpenFiles": [
-    "HTL/C/Cheatsheet 2. Exam.md",
+    "HTL/C/multiFiles-Checklist.md",
     "HTL/C/POS_Senarclens.md",
     "HTL/C/Mi's Mitschrift.md",
     "HTL/C/Dynamic Memory Management.md",
-    "HTL/ORACLE/Redo-Logfile.md",
-    "HTL/ORACLE/Start OR Stop des DBMS.md",
-    "HTL/ORACLE/User Management.md",
+    "HTL/C/Unit Testing.md",
+    "HTL/C/Git-Cheatsheet.pdf",
     "HTL/ORACLE/Data Dictionary.md",
-    "HTL/ORACLE/Trigger.md",
-    "HTL/ORACLE/B-Baum Luecke.md"
+    "HTL/ORACLE/Controlfile.md",
+    "HTL/ORACLE/Adminstrative Tables.md",
+    "HTL/ORACLE/User Management.md"
   ]
 }

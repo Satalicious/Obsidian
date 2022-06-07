@@ -25,7 +25,7 @@ SELECT owner, count(*) as "DB Objekte"
 		GROUP BY owner
 		ORDER BY 2 DESC;
 ```
-===============================================
+======================================
 > Wieviele Typen von DB Objekten (object_types) gibt es?
 ```SQL
 SELECT object_type, count(*)
@@ -33,14 +33,14 @@ SELECT object_type, count(*)
 			GROUP BY object_type
 				ORDER BY 2 DESC;
 ```
-===============================================
+======================================
 > wieviele DB Objekte gibt es, deren Namen mit DBA_ beginnt?
 ```SQL
 SELECT count(*)
 	FROM DBA_OBJECTS
 		WHERE object_name LIKE 'DBA_%';
 ```
-===============================================
+======================================
 > Welche Tabellen benötigen mehr als eine Datei?
 ```sql
 SELECT segment_name, count(*)
@@ -49,7 +49,7 @@ SELECT segment_name, count(*)
 			GROUP BY segment_name
 				HAVING count(DISTINCT file_id) > 1
 ```
-===============================================
+======================================
 > Welchem Benutz gehören die meisten Tabellen?
 ```SQL 
 SELECT owner, count(*) as "Tableanzahl"
@@ -66,19 +66,19 @@ SELECT owner, count(*) as "Tableanzahl"
 			HAVING count(*) = (SELECT max(count(*)) 
 			FROM DBA_TABLES GROUP BY owner);
 ```
-===============================================
+======================================
 > Wieviele Tabellen gehören dem User 'HR'?
 ```SQL
 SELECT count(*) 
 	FROM DBA_TABLES 
 		WHERE OWNER = 'HR';
 ```
-===============================================
+======================================
 > Alle Tables selecten auf die ich als jetziger User zugriff habe
 ```SQL
 SELECT TABLE_NAME FROM USER_TABLES ORDER BY 1;
 ```
-==============================================
+======================================
 
 
 >Welche Datenobjekttypen benötigen keine Einträge in DATA_FILES?
@@ -98,8 +98,7 @@ WHERE object_name NOT INT (SELECT segment_name FROM DBA_SEGMENTS);
 **=> Ergebnis: alle _gewöhnlichen_ DB-Objekte benötigen schon Dateispeicher (EXTENTS -> FILE_ID)
 es gibt aber besondere DB-Objekte von Oracle ohne EXTENTS!**
 
-
-===============================================
+======================================
 > In wievielen Tablespaces werden meine Tabellen verwaltet?
 ```SQL
 SELECT tablespace_name
